@@ -1,5 +1,7 @@
 # dac-theme
 Theme for WP for Data Analytics Company
+-Santiago Trujillo
+-Nicolas Reyes
 
 
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
