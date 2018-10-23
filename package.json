@@ -1,0 +1,31 @@
+{
+  "name": "dac-theme",
+  "version": "1.0.0",
+  "description": "Theme dor DAC Colombia Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maocubillos/dac-theme.git"
+  },
+  "keywords": [
+    "Theme",
+    "WP",
+    "wordpress",
+    "DAC",
+    "Data",
+    "Analytics",
+    "Company"
+  ],
+  "author": "Ciento3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maocubillos/dac-theme/issues"
+  },
+  "homepage": "https://github.com/maocubillos/dac-theme#readme",
+  "dependencies": {
+    "sass": "^1.14.3"
+  }
+}
