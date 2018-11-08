@@ -1,7 +1,7 @@
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
+	position: relative;
 	width: 100%;
 
 	ul {
@@ -61,6 +61,8 @@
 	a {
 		display: block;
 		text-decoration: none;
+		padding: 2.5rem 2rem;
+		color: $gray-900;
 	}
 
 	.current_page_item > a,
@@ -103,5 +105,41 @@
 		float: right;
 		text-align: right;
 		width: 50%;
+	}
+}
+
+.navbar-social {
+    background-color: rgba(16,118, 173, .75);
+    padding: 0 1rem;
+    .btn-login {
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 0.25rem 1rem;
+	}
+	.social-links-list {
+		margin: 0;
+		li {
+			margin: 0 .5rem;
+		}
+	}
+}
+.nav-link {
+    padding: 0.5rem;
+    path {
+        fill: $indigo;
+    }
+}
+
+.main-menu-container {
+	position: absolute;
+    right: 0;
+	top: 0;
+	padding: 1rem 3rem;
+	li {
+		border-right: 1px solid $gray-400;
+		&:last-child {
+			border-right: 0 none;
+		}
 	}
 }

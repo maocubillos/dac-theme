@@ -14,11 +14,18 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'dac-colombia' ) ); ?>">
+		<?php
+			wp_nav_menu( array(
+				'menu_id'        => 'footer',
+				'menu_class'	 	=> 'nav footer-nav',
+			) );
+		?>
+		<strong class="slogan"><span class="initial-quote"></span>Statistics is the grammar of science”</strong>
+		<small class="site-info">
+			<a href="<?php echo esc_url( __( 'http://ciento3.com/', 'dac-colombia' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'dac-colombia' ), 'WordPress' );
+				printf( esc_html__( 'Proudly powered by %s', 'dac-colombia' ), 'Ciento3' );
 				?>
 			</a>
 			<span class="sep"> | </span>
@@ -26,7 +33,7 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'dac-colombia' ), 'dac-colombia', '<a href="http://ciento3.com">Ciento3</a>' );
 				?>
-		</div><!-- .site-info -->
+		</small><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

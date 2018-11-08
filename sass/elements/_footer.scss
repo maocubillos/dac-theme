@@ -1,0 +1,65 @@
+.site-footer {
+    position: relative;
+    height: 26.5rem;
+    background: $cyan url('assets/img/footer-bg.png') 0 0 no-repeat scroll;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    overflow: hidden;
+    .footer-nav {
+        justify-content: space-between;
+        justify-content: space-evenly;
+        margin: 0;
+        a {
+            color: $white;
+            font-weight: 700;
+        }
+        .sub-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            > li {
+                margin-left: 0.5rem;
+                &:before {
+                    content: '-';
+                    color: $white;
+                    margin-left: -0.5rem;
+                }
+                a {
+                    font-weight: 100;
+                    font-size: .85rem;
+                    padding: .4rem;
+                }
+            }
+        }
+    }
+    .menu-footer-container {
+        padding-top: 2rem;
+    }
+    .slogan {
+        color: $white;
+        position: absolute;
+        bottom: 3rem;
+        right: 0;
+        font-family: 'Lato';
+        font-size: 2.5rem;
+        &:before {
+            content: '“';
+            font-size: 20rem;
+            line-height: 1px;
+            position: absolute;
+            top: 5rem;
+            left: -5rem;
+            opacity: .3;
+        }
+    }
+    .site-info {
+        color: $white;
+        display: block;
+        text-align: center;
+        a {
+            color: inherit;
+        }
+    }
+}
