@@ -1,6 +1,7 @@
 .entry-title{
-    background-color: $indigo; 
-    padding: 4rem;
+    background: $indigo url(assets/img/title-bg.png) no-repeat center;
+    color: white; 
+    padding: 4rem 4rem 0 5.25rem;
 }
 
 .entry-content{

@@ -9167,8 +9167,9 @@ table {
 }
 
 .entry-title {
-  background-color: rgba(16, 118, 173, 0.75);
-  padding: 4rem;
+  background: #0e6594 url(assets/img/title-bg.png) no-repeat center;
+  color: white;
+  padding: 4rem 4rem 0 5.25rem;
 }
 
 .entry-content {
