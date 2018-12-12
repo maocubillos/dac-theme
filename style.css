@@ -9169,11 +9169,17 @@ table {
 .entry-title {
   background: #0e6594 url(assets/img/title-bg.png) no-repeat center;
   color: white;
-  padding: 4rem 4rem 0 5.25rem;
+  padding: 8rem 4rem 0 5.25rem;
+  height: 10.8rem;
 }
 
 .entry-content {
   padding: 2rem;
+  margin-top: 0;
+}
+
+.img-info {
+  margin-top: -6.5rem;
 }
 
 .site-footer {
@@ -9269,6 +9275,9 @@ table {
   color: #0e6594;
 }
 
+.home .entry-title {
+  display: none;
+}
 .home .entry-content {
   padding: 0;
   margin: 0;
