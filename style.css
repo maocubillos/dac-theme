@@ -9242,6 +9242,38 @@ table {
   color: inherit;
 }
 
+.hero {
+  background: black url(assets/img/hero.jpg) no-repeat 100% center;
+  padding: 11rem 0 0 0;
+  height: 20.4rem;
+}
+.hero .text1 {
+  color: #0e6594;
+  margin: 0%;
+  padding: 0 0 0 5rem;
+  font-family: "Roboto";
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 0.3;
+}
+.hero .text2 {
+  color: white;
+  margin: 0%;
+  padding: 0 0 0 4rem;
+  font-family: "Roboto";
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.intro {
+  color: #0e6594;
+}
+
+.home .entry-content {
+  padding: 0;
+  margin: 0;
+}
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
