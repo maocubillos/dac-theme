@@ -29,6 +29,25 @@
 }
 
 .services-panel{
+    h1{
+        background-color: $indigo;
+        color: white;
+        margin: 0;
+    }
+    .links{
+        width: 100%;
 
+        a{
+            background: $indigo url(assets/img/) no-repeat center;
+            height: 16rem;
+            padding: 12.5rem 0 0 0;
+        }
+
+        a:hover{
+            background-color: blue;
+        }
+    }
+
+    
 }
 
