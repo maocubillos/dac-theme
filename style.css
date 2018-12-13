@@ -9275,6 +9275,23 @@ table {
   color: #0e6594;
 }
 
+.services-panel h1 {
+  background-color: #0e6594;
+  color: white;
+  margin: 0;
+}
+.services-panel .links {
+  width: 100%;
+}
+.services-panel .links a {
+  background: #0e6594 url(assets/img/) no-repeat center;
+  height: 16rem;
+  padding: 12.5rem 0 0 0;
+}
+.services-panel .links a:hover {
+  background-color: blue;
+}
+
 .home .entry-title {
   display: none;
 }
