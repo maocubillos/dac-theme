@@ -9272,7 +9272,15 @@ table {
 }
 
 .intro {
+  background-image: url(assets/img/IMG_4101.jpg);
   color: #0e6594;
+  padding: 1rem;
+}
+.intro h1 {
+  margin: 0;
+}
+.intro p {
+  margin-top: 3rem;
 }
 
 .services-panel h1 {
@@ -9282,14 +9290,47 @@ table {
 }
 .services-panel .links {
   width: 100%;
+  margin: 0;
+}
+.services-panel .links .gestion {
+  background: #0e6594 url(assets/img/gestion.jpg) no-repeat center;
+}
+.services-panel .links .clasificacion {
+  background: #0e6594 url(assets/img/clasificacion.jpg) no-repeat center;
+}
+.services-panel .links .procesamiento {
+  background: #0e6594 url(assets/img/procesamiento.jpg) no-repeat center;
+}
+.services-panel .links .riesgo {
+  background: #0e6594 url(assets/img/riesgo.jpg) no-repeat center;
+}
+.services-panel .links .prediccion {
+  background: #0e6594 url(assets/img/prediccion.jpg) no-repeat center;
+}
+.services-panel .links .analisis {
+  background: #0e6594 url(assets/img/analisis.jpg) no-repeat center;
+}
+.services-panel .links .procesamiento-i {
+  background: #0e6594 url(assets/img/procesamiento-i.jpg) no-repeat center;
 }
 .services-panel .links a {
   background: #0e6594 url(assets/img/) no-repeat center;
   height: 16rem;
-  padding: 12.5rem 0 0 0;
+  width: 33.3%;
+  padding: 10.5rem 2rem 0 2rem;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: x-large;
+  filter: contrast(175%) brightness(50%);
+}
+.services-panel .links a span {
+  opacity: 0.5;
 }
 .services-panel .links a:hover {
-  background-color: blue;
+  filter: contrast(175%) brightness(80%);
+  text-decoration: none;
 }
 
 .home .entry-title {
