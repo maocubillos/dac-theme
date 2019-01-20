@@ -9165,6 +9165,50 @@ table {
 .site-branding a {
   padding: 0;
 }
+@media (max-width: 575.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
+@media (max-width: 1199.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
 
 .entry-title {
   background: #0e6594 url(assets/img/title-bg.png) no-repeat center;
