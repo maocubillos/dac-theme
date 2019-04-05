@@ -9165,6 +9165,50 @@ table {
 .site-branding a {
   padding: 0;
 }
+@media (max-width: 575.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
+@media (max-width: 1199.98px) {
+  .site-branding {
+    display: inline-block;
+  }
+  .site-branding img {
+    width: 5.5rem;
+  }
+  .site-branding a {
+    padding: 0;
+  }
+}
 
 .entry-title {
   background: #0e6594 url(assets/img/title-bg.png) no-repeat center;
@@ -9262,6 +9306,17 @@ table {
   font-weight: 400;
   line-height: 0.3;
 }
+@media screen and (max-width: 414px) {
+  .hero .text1 {
+    font-size: 4rem;
+    padding-left: 1.875rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero .text1 {
+    font-size: 3.3rem;
+  }
+}
 .hero .text2 {
   color: white;
   margin: 0%;
@@ -9269,6 +9324,17 @@ table {
   font-family: "Roboto";
   font-size: 4rem;
   font-weight: 100;
+}
+@media screen and (max-width: 414px) {
+  .hero .text2 {
+    font-size: 3rem;
+    padding-left: 1.25rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero .text2 {
+    font-size: 2.8rem;
+  }
 }
 
 .intro {
