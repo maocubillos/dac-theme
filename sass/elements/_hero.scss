@@ -1,25 +1,23 @@
 .hero{
     background: black url(assets/img/hero.jpg) no-repeat 100% center;
     padding: 11rem 0 0 0;
-    height: 20.4rem;
+    height: 21rem;
 
     .text1{
-        color: $indigo;
+        color: #c6c7c8;
         margin: 0%;
-        padding: 0 0 0 5rem;
+        padding: 0 0 0 3rem;
         font-family: "Roboto";
         font-size: 6rem;
-        font-weight: 400;
         line-height: 0.3;
     }
     
     .text2{
-        color: white;
+        color: #1097b7;
         margin: 0%;
-        padding: 0 0 0 4rem;
+        padding: 0 0 0 5rem;
         font-family: "Roboto";
-        font-size: 4rem;
-        font-weight: 100;
+        font-size: 8rem;
     }
 }
 
