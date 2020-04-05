@@ -38,12 +38,12 @@
         padding-top: 2rem;
     }
     .slogan {
-        color: #e3ecf2;
+        color: $white;
         position: absolute;
         bottom: 3rem;
         right: 0;
         font-family: 'Lato';
-        font-size: 1.3rem;
+        font-size: 2.5rem;
         &:before {
             content: '“';
             font-size: 20rem;
